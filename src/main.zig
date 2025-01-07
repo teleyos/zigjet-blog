@@ -87,7 +87,7 @@ pub const jetzig_options = struct {
             .path = "/",
         },
         .production => .{
-            .same_site = true,
+            .same_site = .strict,
             .secure = true,
             .http_only = true,
             .path = "/",
