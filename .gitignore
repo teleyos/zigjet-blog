@@ -3,4 +3,5 @@ zig-cache/
 *.core
 .jetzig
 .zig-cache/
-bundle*
+bundle.tar.gz
+.env*

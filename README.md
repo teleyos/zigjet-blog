@@ -10,6 +10,10 @@
 
 ✅ Faire un README
 
-☑️ Avant le 10/01/25, Connecter une DB SQLite
+~~☑️ Avant le 10/01/25, Connecter une DB SQLite~~
 
-☑️ Avant le 12/01/25, Mettre des articles Lorem Ipsum dans la db
+~~☑️ Avant le 12/01/25, Mettre des articles Lorem Ipsum dans la db~~
+
+✅ Avant le 13/01/25, Créer le compose.yml et setup docker-compose
+
+☑️ Avant le 13/01/25, Créer la table articles et des articles exemples
