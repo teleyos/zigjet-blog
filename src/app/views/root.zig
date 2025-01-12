@@ -44,6 +44,11 @@ pub fn index(request: *jetzig.Request, data: *jetzig.Data) !jetzig.View {
     try array.append(obj);
     try array.append(objj);
 
+    const query = jetzig.database.Query(.Blog).orderBy(.{.created_at = .desc});
+    const blogs = try request.repo.all(query);
+
+    try root.put("articles", blogs);
+
     try root.put("message_param", params.get("message"));
 
     // Set arbitrary response headers as required. `content-type` is automatically assigned for

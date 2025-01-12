@@ -1,13 +1,13 @@
 pub const database = .{
     // Null adapter fails when a database call is invoked.
     .development = .{
-        .adapter = .null,
+        .adapter = .postgresql,
     },
     .testing = .{
-        .adapter = .null,
+        .adapter = .postgresql,
     },
     .production = .{
-        .adapter = .null,
+        .adapter = .postgresql,
     },
     // PostgreSQL adapter configuration.
     //

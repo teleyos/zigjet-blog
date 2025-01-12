@@ -30,8 +30,10 @@
         </div>
 
        @for (.articles) |article| {
-           @partial root/article_blob(title: article.title, blob: article.description)
+           @partial root/article_blob(title: article.title, blob: article.content)
        }
+
+
     </div>
   </body>
 </html>

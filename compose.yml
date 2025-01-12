@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:16
     environment:
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${JETQUERY_USERNAME}
+      POSTGRES_PASSWORD: ${JETQUERY_PASSWORD}
     ports:
       - 5432:5432

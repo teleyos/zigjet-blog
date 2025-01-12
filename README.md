@@ -16,4 +16,6 @@
 
 ✅ Avant le 13/01/25, Créer le compose.yml et setup docker-compose
 
-☑️ Avant le 13/01/25, Créer la table articles et des articles exemples
+✅ Avant le 13/01/25, Créer la table articles et des articles exemples
+
+☑️ Avant le 16/01/25, Mettre en forme la liste des articles dans /blogs
